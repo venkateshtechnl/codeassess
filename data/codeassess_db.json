@@ -1,0 +1,1905 @@
+{
+  "users": [
+    {
+      "id": "u-trainer-1",
+      "name": "Venkatesh -TT",
+      "email": "venkateshtechnl@gmail.com",
+      "passwordHash": "ad20d3716847fdbbec0c0b69545d541c01757e6fb3150d8dcaf9c0495602e5e1f2df7a8663b84ebf357aa0bb2e0de660cc75ff5e32fd65e8ca8545c6f371626d",
+      "salt": "d780222daccc7ef493916e772d93013d",
+      "role": "trainer",
+      "course": "java",
+      "batch": "Trainer-Core",
+      "section": "Staff",
+      "eisPoints": 0,
+      "isActive": true,
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "u-student-1",
+      "name": "Karthik R.",
+      "email": "karthik@student.edu",
+      "passwordHash": "1157e2e57df40c62814309b11a36268ee4faaf90deec8df78e8abc561848c6b1c5c8b2fef9da989b24ac7f70f87df2e3d06ae4f278b55ea4d6011196ccfd62ad",
+      "salt": "275cb04027b4e8e23555ef10e01b7b37",
+      "role": "student",
+      "course": "java",
+      "batch": "Batch-2026-A",
+      "section": "CSE-Alpha",
+      "eisPoints": 80,
+      "isActive": true,
+      "createdAt": "2026-09-10T09:00:00.000Z"
+    },
+    {
+      "id": "u-student-2",
+      "name": "Priya Sharma",
+      "email": "priya@student.edu",
+      "passwordHash": "639c66fb44654ffa2f7e07ee948c9ee4c0dcbd58d5624ec6e2963d3ed270187d54689a4f438e9ffaa0548353141ef3160445d81a68cd226ab69ba6493e6e36cb",
+      "salt": "2ce3977d8fb39caaa39c75bb6a5fec9d",
+      "role": "student",
+      "course": "python",
+      "batch": "Batch-2026-A",
+      "section": "CSE-Alpha",
+      "eisPoints": 80,
+      "isActive": true,
+      "createdAt": "2026-09-11T10:30:00.000Z"
+    },
+    {
+      "id": "u-student-3",
+      "name": "Rahul Verma",
+      "email": "rahul@student.edu",
+      "passwordHash": "64af204ae307b7d803880c4efeb0e96859c63379c4f6d9846c0e9a596bbd2c3967c144d7bb9ac0d4cb5c284af8d10cdf72d6fa226acec2dff47250f4f09cd52c",
+      "salt": "c759a5581bf288e99b8d6affb0e471c4",
+      "role": "student",
+      "course": "cpp",
+      "batch": "Batch-2026-B",
+      "section": "CSE-Beta",
+      "eisPoints": 50,
+      "isActive": true,
+      "createdAt": "2026-09-12T11:00:00.000Z"
+    },
+    {
+      "id": "u-student-4",
+      "name": "Ananya Reddy",
+      "email": "ananya@student.edu",
+      "passwordHash": "ae38fbf37ba35e790148e6eb2fbc8685d8d605bb6f0336aee17e058f18094b45d512a0913cbdb375e557e27cb23f854d46e09b035af2a967a8a04a8a3ab1f96f",
+      "salt": "9f958d9d8e9b99702ea6ebe47554799b",
+      "role": "student",
+      "course": "c",
+      "batch": "Batch-2026-B",
+      "section": "CSE-Beta",
+      "eisPoints": 40,
+      "isActive": true,
+      "createdAt": "2026-09-13T14:15:00.000Z"
+    },
+    {
+      "id": "u-1791278928630-0ddeu",
+      "name": "vikas kumar",
+      "email": "vv@gmail.com",
+      "passwordHash": "f9c1b169d4d4c5f606b8fc9f0cd12a42309fd7c3ce858b129780237fa877c9cbcc18bbf411fa9108a3dd21a51ad8dae0b6ce91de72b81722991416abd8b08ea9",
+      "salt": "e1cc93050fbb5c4ae795aa8e822b049d",
+      "role": "student",
+      "course": "java",
+      "batch": "Batch-2026-A",
+      "section": "CSE-1",
+      "eisPoints": 0,
+      "isActive": true,
+      "createdAt": "2026-10-06T09:28:48.631Z"
+    },
+    {
+      "id": "u-1791357794823-p7xtu",
+      "name": "VIKAS KUMAR",
+      "email": "vikaskumar@gamil.com",
+      "passwordHash": "447e57cad72b33403d933bf434a165ea580e64edf38c43ecef380b1a629bcafe407f8762c9b6b6cbdeb6081d86170b0495928b553aaf9d8cdd449d5a24c9a78d",
+      "salt": "cc8a92966b4d351a9b6e2b75a525eb8e",
+      "role": "student",
+      "course": "java",
+      "batch": "CSE",
+      "section": "CSE-Alpha",
+      "eisPoints": 0,
+      "isActive": true,
+      "createdAt": "2026-10-07T07:23:14.823Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "java",
+      "name": "Java Programming",
+      "badge": "Java 21 LTS",
+      "iconName": "Coffee",
+      "description": "Master object-oriented programming, data structures, and algorithmic problem solving with modern Java.",
+      "classroomUrl": "https://classroom.google.com",
+      "levels": [
+        {
+          "levelNumber": 1,
+          "name": "Basics & Syntax",
+          "description": "Variables, primitive data types, Scanner I/O, and arithmetic foundations."
+        },
+        {
+          "levelNumber": 2,
+          "name": "Operators & Conditionals",
+          "description": "Relational, logical operators, if-else branches, and switch statements."
+        },
+        {
+          "levelNumber": 3,
+          "name": "Loops & Problem Solving",
+          "description": "for, while, nested iterations, number analysis, and pyramid patterns."
+        },
+        {
+          "levelNumber": 4,
+          "name": "Arrays, Strings & Methods",
+          "description": "1D/2D arrays, string manipulation, method modularity, and recursion."
+        },
+        {
+          "levelNumber": 5,
+          "name": "OOP & DSA Foundations",
+          "description": "Classes, encapsulation, inheritance, polymorphism, and basic data structures."
+        },
+        {
+          "levelNumber": 6,
+          "name": "Level 6 - Graphs & Dynamic Programming",
+          "description": "Shortest paths, graph traversals, and dynamic programming algorithms."
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "name": "C Programming",
+      "badge": "C17 Standard",
+      "iconName": "Cpu",
+      "description": "Learn procedural fundamentals, memory layout, pointers, and high-performance system programming in C.",
+      "classroomUrl": "https://classroom.google.com",
+      "levels": [
+        {
+          "levelNumber": 1,
+          "name": "C Syntax & Fundamentals",
+          "description": "Standard I/O with printf/scanf, data types, format specifiers, and arithmetic."
+        },
+        {
+          "levelNumber": 2,
+          "name": "Control Flow & Logic",
+          "description": "Decision making, ternary operators, relational checks, and nested branching."
+        },
+        {
+          "levelNumber": 3,
+          "name": "Iteration & Number Logic",
+          "description": "While, for loops, prime testing, digit extractions, and ASCII patterns."
+        },
+        {
+          "levelNumber": 4,
+          "name": "Arrays, Strings & Pointers",
+          "description": "Contiguous memory, pointer arithmetic, string.h utilities, and functions."
+        },
+        {
+          "levelNumber": 5,
+          "name": "Structures & Memory Management",
+          "description": "struct, union, malloc/free heap management, and file operations."
+        }
+      ]
+    },
+    {
+      "id": "cpp",
+      "name": "C++ Programming",
+      "badge": "C++20 ISO",
+      "iconName": "Code",
+      "description": "Object-oriented programming, modern STL containers, algorithms, and high-performance competitive coding.",
+      "classroomUrl": "https://classroom.google.com",
+      "levels": [
+        {
+          "levelNumber": 1,
+          "name": "Modern C++ Foundations",
+          "description": "cin/cout, namespaces, references, auto type deduction, and core math."
+        },
+        {
+          "levelNumber": 2,
+          "name": "Branching & Expressions",
+          "description": "Conditional logic, boolean algebra, switch-case, and operator precedence."
+        },
+        {
+          "levelNumber": 3,
+          "name": "Loops & Algorithmic Patterns",
+          "description": "Loop constructs, series computation, nested pattern generation, and math algorithms."
+        },
+        {
+          "levelNumber": 4,
+          "name": "STL Vectors, Strings & Functions",
+          "description": "std::vector, std::string, passing by reference, recursion, and sorting."
+        },
+        {
+          "levelNumber": 5,
+          "name": "Classes, OOP & Advanced STL",
+          "description": "Encapsulation, constructors, operator overloading, maps, sets, and algorithms."
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python 3",
+      "badge": "Python 3.12",
+      "iconName": "Terminal",
+      "description": "Clean syntax, dynamic typing, list comprehensions, data structures, and pragmatic problem solving.",
+      "classroomUrl": "https://classroom.google.com",
+      "levels": [
+        {
+          "levelNumber": 1,
+          "name": "Python Basics & I/O",
+          "description": "Dynamic variables, print(), input(), type casting, and string basics."
+        },
+        {
+          "levelNumber": 2,
+          "name": "Decisions & Boolean Logic",
+          "description": "if, elif, else, logical and/or/not operators, and membership checks."
+        },
+        {
+          "levelNumber": 3,
+          "name": "Loops & Iterables",
+          "description": "for in range(), while loops, break/continue, math logic, and pattern prints."
+        },
+        {
+          "levelNumber": 4,
+          "name": "Lists, Dictionaries & Functions",
+          "description": "List methods, comprehensions, dict mapping, tuples, and custom functions."
+        },
+        {
+          "levelNumber": 5,
+          "name": "OOP & Pythonic DSA",
+          "description": "Classes, magic methods, recursion, searching algorithms, and stack/queue logic."
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "java-m1",
+      "courseId": "java",
+      "levelNumber": 1,
+      "title": "Input, Output & Variables",
+      "description": "Master Scanner, System.out.println, and primitive arithmetic."
+    },
+    {
+      "id": "java-m2",
+      "courseId": "java",
+      "levelNumber": 2,
+      "title": "Conditional Branching",
+      "description": "If-else statements, relational logic, and switch conditions."
+    },
+    {
+      "id": "java-m3",
+      "courseId": "java",
+      "levelNumber": 3,
+      "title": "Loops & Number Theory",
+      "description": "For loops, while loops, prime numbers, and digit extraction."
+    },
+    {
+      "id": "java-m4",
+      "courseId": "java",
+      "levelNumber": 4,
+      "title": "Arrays & String Operations",
+      "description": "Array iteration, searching, sorting, and string methods."
+    },
+    {
+      "id": "java-m5",
+      "courseId": "java",
+      "levelNumber": 5,
+      "title": "OOP Principles & Data Structures",
+      "description": "Classes, objects, constructors, and stack/list problem solving."
+    },
+    {
+      "id": "c-m1",
+      "courseId": "c",
+      "levelNumber": 1,
+      "title": "Basic I/O & Types",
+      "description": "Printf, scanf, format specifiers, and basic math calculations."
+    },
+    {
+      "id": "c-m2",
+      "courseId": "c",
+      "levelNumber": 2,
+      "title": "Conditions & Logical Operators",
+      "description": "Relational operations, branching logic, and decision tables."
+    },
+    {
+      "id": "c-m3",
+      "courseId": "c",
+      "levelNumber": 3,
+      "title": "Iterative Problem Solving",
+      "description": "While/for loops, mathematical series, and number checks."
+    },
+    {
+      "id": "c-m4",
+      "courseId": "c",
+      "levelNumber": 4,
+      "title": "1D Arrays & Pointer Basics",
+      "description": "Array traversal, pointer referencing, and string utilities."
+    },
+    {
+      "id": "c-m5",
+      "courseId": "c",
+      "levelNumber": 5,
+      "title": "Structures & Algorithmic Logic",
+      "description": "Custom data structures, search algorithms, and modular functions."
+    },
+    {
+      "id": "cpp-m1",
+      "courseId": "cpp",
+      "levelNumber": 1,
+      "title": "Streams & Variables",
+      "description": "cin, cout, fast I/O, and primitive manipulations."
+    },
+    {
+      "id": "cpp-m2",
+      "courseId": "cpp",
+      "levelNumber": 2,
+      "title": "Branching & Conditions",
+      "description": "Conditional flow, compound conditionals, and switch statements."
+    },
+    {
+      "id": "cpp-m3",
+      "courseId": "cpp",
+      "levelNumber": 3,
+      "title": "Iterative Algorithms",
+      "description": "Loop optimizations, pattern generation, and number theory."
+    },
+    {
+      "id": "cpp-m4",
+      "courseId": "cpp",
+      "levelNumber": 4,
+      "title": "Vectors & String Manipulation",
+      "description": "std::vector operations, string processing, and sort algorithms."
+    },
+    {
+      "id": "cpp-m5",
+      "courseId": "cpp",
+      "levelNumber": 5,
+      "title": "Classes & STL Containers",
+      "description": "Class structures, encapsulation, and container algorithms."
+    },
+    {
+      "id": "py-m1",
+      "courseId": "python",
+      "levelNumber": 1,
+      "title": "Syntax, Print & Input",
+      "description": "input(), print(sep/end), type conversions, and arithmetic."
+    },
+    {
+      "id": "py-m2",
+      "courseId": "python",
+      "levelNumber": 2,
+      "title": "Conditionals & Booleans",
+      "description": "if, elif, else, boolean algebra, and membership tests."
+    },
+    {
+      "id": "py-m3",
+      "courseId": "python",
+      "levelNumber": 3,
+      "title": "Loops & Sequences",
+      "description": "for in range, while iterations, digit sums, and series."
+    },
+    {
+      "id": "py-m4",
+      "courseId": "python",
+      "levelNumber": 4,
+      "title": "Lists, Strings & Functions",
+      "description": "Slicing, list methods, string manipulation, and custom defs."
+    },
+    {
+      "id": "py-m5",
+      "courseId": "python",
+      "levelNumber": 5,
+      "title": "Classes, OOP & Problem Solving",
+      "description": "Object orientation, recursion, and algorithmic techniques."
+    },
+    {
+      "id": "java-m1791282397974",
+      "courseId": "java",
+      "levelNumber": 6,
+      "title": "Module 1 - Graph Representations & BFS",
+      "description": "Adjacency matrix, adjacency list, and breadth-first search."
+    },
+    {
+      "id": "java-m1791284154207",
+      "courseId": "java",
+      "levelNumber": 1,
+      "title": "new module",
+      "description": ""
+    }
+  ],
+  "problems": [
+    {
+      "id": "java-p101",
+      "courseId": "java",
+      "levelNumber": 1,
+      "moduleId": "java-m1",
+      "title": "Sum of Two Numbers",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Read two integers from standard input and print their arithmetic sum.",
+      "inputFormat": "Two space-separated integers A and B on a single line.",
+      "outputFormat": "Print the integer sum of A and B.",
+      "constraints": "-10^9 <= A, B <= 10^9",
+      "exampleInput": "15 25",
+      "exampleOutput": "40",
+      "explanation": "15 + 25 = 40",
+      "starterCode": {
+        "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        long a = sc.nextLong();\n        long b = sc.nextLong();\n        // Write your solution below\n        System.out.println(a + b);\n    }\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "15 25",
+          "expectedOutput": "40",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "-10 30",
+          "expectedOutput": "20",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "1000000 2000000",
+          "expectedOutput": "3000000",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "0 0",
+          "expectedOutput": "0",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "java-p102",
+      "courseId": "java",
+      "levelNumber": 1,
+      "moduleId": "java-m1",
+      "title": "Simple Interest Calculator",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Given principal P, annual interest rate R (in percent), and time T (in years), compute the Simple Interest rounded to 2 decimal places.",
+      "inputFormat": "Three space-separated numbers: P (double), R (double), T (double).",
+      "outputFormat": "Print the simple interest formatted with 2 decimal places (e.g. 150.00).",
+      "constraints": "1 <= P <= 10^7, 0 <= R <= 100, 1 <= T <= 50",
+      "exampleInput": "1000 5 2",
+      "exampleOutput": "100.00",
+      "starterCode": {
+        "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        double p = sc.nextDouble();\n        double r = sc.nextDouble();\n        double t = sc.nextDouble();\n        double si = (p * r * t) / 100.0;\n        System.out.printf(\"%.2f\\n\", si);\n    }\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "1000 5 2",
+          "expectedOutput": "100.00",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "2500 7.5 3",
+          "expectedOutput": "562.50",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "50000 8.25 5",
+          "expectedOutput": "20625.00",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "java-p201",
+      "courseId": "java",
+      "levelNumber": 2,
+      "moduleId": "java-m2",
+      "title": "Check Leap Year",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Determine whether a given year Y is a leap year according to the Gregorian calendar rules. A year is leap if it is divisible by 4, except century years which must be divisible by 400.",
+      "inputFormat": "A single positive integer Y representing the year.",
+      "outputFormat": "Print \"Leap Year\" if it is a leap year, otherwise print \"Not a Leap Year\".",
+      "constraints": "1 <= Y <= 9999",
+      "exampleInput": "2024",
+      "exampleOutput": "Leap Year",
+      "starterCode": {
+        "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int year = sc.nextInt();\n        boolean isLeap = (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0);\n        if (isLeap) {\n            System.out.println(\"Leap Year\");\n        } else {\n            System.out.println(\"Not a Leap Year\");\n        }\n    }\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "2024",
+          "expectedOutput": "Leap Year",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "1900",
+          "expectedOutput": "Not a Leap Year",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "2000",
+          "expectedOutput": "Leap Year",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "2023",
+          "expectedOutput": "Not a Leap Year",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "java-p202",
+      "courseId": "java",
+      "levelNumber": 2,
+      "moduleId": "java-m2",
+      "title": "Greatest of Three Numbers",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Given three distinct integers A, B, and C, find and output the largest value among them.",
+      "inputFormat": "Three space-separated integers A, B, and C.",
+      "outputFormat": "Print the maximum integer.",
+      "constraints": "-10^6 <= A, B, C <= 10^6",
+      "exampleInput": "45 89 23",
+      "exampleOutput": "89",
+      "starterCode": {
+        "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int a = sc.nextInt();\n        int b = sc.nextInt();\n        int c = sc.nextInt();\n        int max = Math.max(a, Math.max(b, c));\n        System.out.println(max);\n    }\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "45 89 23",
+          "expectedOutput": "89",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "-10 -5 -20",
+          "expectedOutput": "-5",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "100 20 50",
+          "expectedOutput": "100",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "java-p301",
+      "courseId": "java",
+      "levelNumber": 3,
+      "moduleId": "java-m3",
+      "title": "Check Prime Number",
+      "difficulty": "Medium",
+      "points": 20,
+      "description": "Given an integer N, determine if it is a prime number. A prime number is greater than 1 and has no positive divisors other than 1 and itself.",
+      "inputFormat": "A single integer N.",
+      "outputFormat": "Print \"Prime\" if N is prime, otherwise print \"Not Prime\".",
+      "constraints": "1 <= N <= 10^9",
+      "exampleInput": "17",
+      "exampleOutput": "Prime",
+      "starterCode": {
+        "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        long n = sc.nextLong();\n        if (n <= 1) {\n            System.out.println(\"Not Prime\");\n            return;\n        }\n        boolean isPrime = true;\n        for (long i = 2; i * i <= n; i++) {\n            if (n % i == 0) {\n                isPrime = false;\n                break;\n            }\n        }\n        System.out.println(isPrime ? \"Prime\" : \"Not Prime\");\n    }\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "17",
+          "expectedOutput": "Prime",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "4",
+          "expectedOutput": "Not Prime",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "1",
+          "expectedOutput": "Not Prime",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "997",
+          "expectedOutput": "Prime",
+          "isHidden": true
+        },
+        {
+          "id": "tc5",
+          "input": "1000000007",
+          "expectedOutput": "Prime",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "java-p302",
+      "courseId": "java",
+      "levelNumber": 3,
+      "moduleId": "java-m3",
+      "title": "Reverse a Number",
+      "difficulty": "Medium",
+      "points": 20,
+      "description": "Given a non-negative integer N, reverse its digits. Leading zeros in the reversed number should be eliminated (e.g. 120 -> 21).",
+      "inputFormat": "A single non-negative integer N.",
+      "outputFormat": "Print the reversed integer.",
+      "constraints": "0 <= N <= 2 * 10^9",
+      "exampleInput": "12345",
+      "exampleOutput": "54321",
+      "starterCode": {
+        "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        long n = sc.nextLong();\n        long rev = 0;\n        while (n > 0) {\n            rev = rev * 10 + (n % 10);\n            n /= 10;\n        }\n        System.out.println(rev);\n    }\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "12345",
+          "expectedOutput": "54321",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "120",
+          "expectedOutput": "21",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "7",
+          "expectedOutput": "7",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "900000",
+          "expectedOutput": "9",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "java-p303",
+      "courseId": "java",
+      "levelNumber": 3,
+      "moduleId": "java-m3",
+      "title": "Fibonacci Series up to N",
+      "difficulty": "Medium",
+      "points": 20,
+      "description": "Print the first N terms of the Fibonacci sequence starting from 0 and 1. Terms must be space-separated.",
+      "inputFormat": "A single positive integer N.",
+      "outputFormat": "Print the first N terms separated by a single space.",
+      "constraints": "1 <= N <= 40",
+      "exampleInput": "6",
+      "exampleOutput": "0 1 1 2 3 5",
+      "starterCode": {
+        "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        long a = 0, b = 1;\n        for (int i = 0; i < n; i++) {\n            System.out.print(a + (i == n - 1 ? \"\" : \" \"));\n            long next = a + b;\n            a = b;\n            b = next;\n        }\n        System.out.println();\n    }\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "6",
+          "expectedOutput": "0 1 1 2 3 5",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "1",
+          "expectedOutput": "0",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "8",
+          "expectedOutput": "0 1 1 2 3 5 8 13",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "java-p401",
+      "courseId": "java",
+      "levelNumber": 4,
+      "moduleId": "java-m4",
+      "title": "Find Second Largest in Array",
+      "difficulty": "Medium",
+      "points": 20,
+      "description": "Given an array of N integers, find the second largest distinct element. If no second largest distinct element exists, print -1.",
+      "inputFormat": "First line: integer N. Second line: N space-separated integers.",
+      "outputFormat": "Print the second largest distinct integer or -1.",
+      "constraints": "1 <= N <= 10^5, -10^9 <= A[i] <= 10^9",
+      "exampleInput": "5\n12 35 1 10 34",
+      "exampleOutput": "34",
+      "starterCode": {
+        "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        if (!sc.hasNextInt()) return;\n        int n = sc.nextInt();\n        long[] arr = new long[n];\n        for (int i = 0; i < n; i++) arr[i] = sc.nextLong();\n        \n        long first = Long.MIN_VALUE, second = Long.MIN_VALUE;\n        for (long num : arr) {\n            if (num > first) {\n                second = first;\n                first = num;\n            } else if (num < first && num > second) {\n                second = num;\n            }\n        }\n        if (second == Long.MIN_VALUE) System.out.println(-1);\n        else System.out.println(second);\n    }\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "5\n12 35 1 10 34",
+          "expectedOutput": "34",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "3\n10 10 10",
+          "expectedOutput": "-1",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "6\n5 9 2 8 9 4",
+          "expectedOutput": "8",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "java-p402",
+      "courseId": "java",
+      "levelNumber": 4,
+      "moduleId": "java-m4",
+      "title": "Palindrome String Check",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Check whether a given string is a palindrome (ignoring casing and whitespace).",
+      "inputFormat": "A string S on a single line.",
+      "outputFormat": "Print \"YES\" if palindrome, otherwise \"NO\".",
+      "constraints": "1 <= |S| <= 10^4",
+      "exampleInput": "RaceCar",
+      "exampleOutput": "YES",
+      "starterCode": {
+        "java": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        String s = sc.nextLine().replaceAll(\"\\\\s+\", \"\").toLowerCase();\n        int l = 0, r = s.length() - 1;\n        boolean ok = true;\n        while (l < r) {\n            if (s.charAt(l) != s.charAt(r)) {\n                ok = false;\n                break;\n            }\n            l++;\n            r--;\n        }\n        System.out.println(ok ? \"YES\" : \"NO\");\n    }\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "RaceCar",
+          "expectedOutput": "YES",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "Hello World",
+          "expectedOutput": "NO",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "a",
+          "expectedOutput": "YES",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "Deified",
+          "expectedOutput": "YES",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "java-p501",
+      "courseId": "java",
+      "levelNumber": 5,
+      "moduleId": "java-m5",
+      "title": "Valid Parentheses",
+      "difficulty": "Hard",
+      "points": 30,
+      "description": "Given a string containing just the characters \"(\", \")\", \"{\", \"}\", \"[\" and \"]\", determine if the input string is valid. Brackets must close in the correct order with matching open bracket types.",
+      "inputFormat": "A single string S containing bracket symbols.",
+      "outputFormat": "Print \"Valid\" if balanced, else \"Invalid\".",
+      "constraints": "1 <= |S| <= 10^5",
+      "exampleInput": "{[()]}",
+      "exampleOutput": "Valid",
+      "starterCode": {
+        "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        String s = sc.next();\n        Stack<Character> stack = new Stack<>();\n        boolean valid = true;\n        for (char c : s.toCharArray()) {\n            if (c == '(' || c == '{' || c == '[') {\n                stack.push(c);\n            } else {\n                if (stack.isEmpty()) { valid = false; break; }\n                char top = stack.pop();\n                if ((c == ')' && top != '(') ||\n                    (c == '}' && top != '{') ||\n                    (c == ']' && top != '[')) {\n                    valid = false;\n                    break;\n                }\n            }\n        }\n        if (valid && stack.isEmpty()) {\n            System.out.println(\"Valid\");\n        } else {\n            System.out.println(\"Invalid\");\n        }\n    }\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "{[()]}",
+          "expectedOutput": "Valid",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "([)]",
+          "expectedOutput": "Invalid",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "((()",
+          "expectedOutput": "Invalid",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "()[]{}",
+          "expectedOutput": "Valid",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "c-p101",
+      "courseId": "c",
+      "levelNumber": 1,
+      "moduleId": "c-m1",
+      "title": "Odd or Even in C",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Given an integer N, print \"Even\" if the number is even and \"Odd\" if the number is odd.",
+      "inputFormat": "A single integer N.",
+      "outputFormat": "Print \"Even\" or \"Odd\".",
+      "constraints": "-10^9 <= N <= 10^9",
+      "exampleInput": "42",
+      "exampleOutput": "Even",
+      "starterCode": {
+        "c": "#include <stdio.h>\n\nint main() {\n    long long n;\n    if (scanf(\"%lld\", &n) == 1) {\n        if (n % 2 == 0) {\n            printf(\"Even\\n\");\n        } else {\n            printf(\"Odd\\n\");\n        }\n    }\n    return 0;\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "42",
+          "expectedOutput": "Even",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "17",
+          "expectedOutput": "Odd",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "0",
+          "expectedOutput": "Even",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "-5",
+          "expectedOutput": "Odd",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "c-p201",
+      "courseId": "c",
+      "levelNumber": 2,
+      "moduleId": "c-m2",
+      "title": "Quadrant of a Point",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Given 2D coordinates (X, Y), determine the quadrant: \"Q1\", \"Q2\", \"Q3\", \"Q4\", \"Origin\", or \"Axis\".",
+      "inputFormat": "Two space-separated integers X and Y.",
+      "outputFormat": "Print the quadrant identifier.",
+      "constraints": "-10^6 <= X, Y <= 10^6",
+      "exampleInput": "4 -3",
+      "exampleOutput": "Q4",
+      "starterCode": {
+        "c": "#include <stdio.h>\n\nint main() {\n    int x, y;\n    scanf(\"%d %d\", &x, &y);\n    if (x == 0 && y == 0) printf(\"Origin\\n\");\n    else if (x == 0 || y == 0) printf(\"Axis\\n\");\n    else if (x > 0 && y > 0) printf(\"Q1\\n\");\n    else if (x < 0 && y > 0) printf(\"Q2\\n\");\n    else if (x < 0 && y < 0) printf(\"Q3\\n\");\n    else printf(\"Q4\\n\");\n    return 0;\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "4 -3",
+          "expectedOutput": "Q4",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "-5 -5",
+          "expectedOutput": "Q3",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "0 0",
+          "expectedOutput": "Origin",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "10 20",
+          "expectedOutput": "Q1",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "c-p301",
+      "courseId": "c",
+      "levelNumber": 3,
+      "moduleId": "c-m3",
+      "title": "Factorial of a Number",
+      "difficulty": "Medium",
+      "points": 20,
+      "description": "Compute the factorial N! for a non-negative integer N.",
+      "inputFormat": "Single non-negative integer N.",
+      "outputFormat": "Print N!",
+      "constraints": "0 <= N <= 20",
+      "exampleInput": "5",
+      "exampleOutput": "120",
+      "starterCode": {
+        "c": "#include <stdio.h>\n\nint main() {\n    int n;\n    scanf(\"%d\", &n);\n    unsigned long long fact = 1;\n    for (int i = 2; i <= n; i++) {\n        fact *= i;\n    }\n    printf(\"%llu\\n\", fact);\n    return 0;\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "5",
+          "expectedOutput": "120",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "0",
+          "expectedOutput": "1",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "10",
+          "expectedOutput": "3628800",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "c-p401",
+      "courseId": "c",
+      "levelNumber": 4,
+      "moduleId": "c-m4",
+      "title": "Array Elements Inversion Count",
+      "difficulty": "Medium",
+      "points": 20,
+      "description": "Given an array of N integers, reverse the array in-place and print the reversed elements separated by spaces.",
+      "inputFormat": "First line: N. Second line: N space-separated integers.",
+      "outputFormat": "N reversed integers separated by space.",
+      "constraints": "1 <= N <= 10^4",
+      "exampleInput": "5\n1 2 3 4 5",
+      "exampleOutput": "5 4 3 2 1",
+      "starterCode": {
+        "c": "#include <stdio.h>\n\nint main() {\n    int n;\n    if (scanf(\"%d\", &n) != 1) return 0;\n    int a[n];\n    for (int i = 0; i < n; i++) scanf(\"%d\", &a[i]);\n    for (int i = n - 1; i >= 0; i--) {\n        printf(\"%d%s\", a[i], i == 0 ? \"\" : \" \");\n    }\n    printf(\"\\n\");\n    return 0;\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "5\n1 2 3 4 5",
+          "expectedOutput": "5 4 3 2 1",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "3\n10 20 30",
+          "expectedOutput": "30 20 10",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "1\n99",
+          "expectedOutput": "99",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "c-p501",
+      "courseId": "c",
+      "levelNumber": 5,
+      "moduleId": "c-m5",
+      "title": "Binary Search Implementation",
+      "difficulty": "Hard",
+      "points": 30,
+      "description": "Given a sorted array of N integers and a target key K, find the 0-based index of K. If not present, print -1.",
+      "inputFormat": "Line 1: N and K. Line 2: N sorted space-separated integers.",
+      "outputFormat": "Index of K or -1.",
+      "constraints": "1 <= N <= 10^5, -10^9 <= K, A[i] <= 10^9",
+      "exampleInput": "5 15\n3 8 15 22 40",
+      "exampleOutput": "2",
+      "starterCode": {
+        "c": "#include <stdio.h>\n\nint main() {\n    int n;\n    long long k;\n    scanf(\"%d %lld\", &n, &k);\n    long long a[n];\n    for (int i = 0; i < n; i++) scanf(\"%lld\", &a[i]);\n    \n    int low = 0, high = n - 1, ans = -1;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (a[mid] == k) {\n            ans = mid;\n            break;\n        } else if (a[mid] < k) {\n            low = mid + 1;\n        } else {\n            high = mid - 1;\n        }\n    }\n    printf(\"%d\\n\", ans);\n    return 0;\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "5 15\n3 8 15 22 40",
+          "expectedOutput": "2",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "4 99\n1 2 3 4",
+          "expectedOutput": "-1",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "6 1\n1 3 5 7 9 11",
+          "expectedOutput": "0",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "cpp-p101",
+      "courseId": "cpp",
+      "levelNumber": 1,
+      "moduleId": "cpp-m1",
+      "title": "Temperature Converter (C to F)",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Convert a temperature given in Celsius C to Fahrenheit F: F = (C * 9/5) + 32. Print result rounded to 1 decimal place.",
+      "inputFormat": "Single floating point number C.",
+      "outputFormat": "Print temperature in Fahrenheit with 1 decimal place (e.g. 98.6).",
+      "constraints": "-100 <= C <= 200",
+      "exampleInput": "37",
+      "exampleOutput": "98.6",
+      "starterCode": {
+        "cpp": "#include <iostream>\n#include <iomanip>\nusing namespace std;\n\nint main() {\n    double c;\n    if (cin >> c) {\n        double f = (c * 9.0 / 5.0) + 32.0;\n        cout << fixed << setprecision(1) << f << endl;\n    }\n    return 0;\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "37",
+          "expectedOutput": "98.6",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "0",
+          "expectedOutput": "32.0",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "100",
+          "expectedOutput": "212.0",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "-40",
+          "expectedOutput": "-40.0",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "cpp-p201",
+      "courseId": "cpp",
+      "levelNumber": 2,
+      "moduleId": "cpp-m2",
+      "title": "Triangle Type Classifier",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Given three side lengths A, B, and C, classify whether they form an: \"Equilateral\", \"Isosceles\", \"Scalene\", or \"Invalid\" triangle.",
+      "inputFormat": "Three space-separated integers A, B, and C.",
+      "outputFormat": "Print the classification string.",
+      "constraints": "1 <= A, B, C <= 10^4",
+      "exampleInput": "5 5 5",
+      "exampleOutput": "Equilateral",
+      "starterCode": {
+        "cpp": "#include <iostream>\nusing namespace std;\n\nint main() {\n    long long a, b, c;\n    cin >> a >> b >> c;\n    if (a + b <= c || a + c <= b || b + c <= a) {\n        cout << \"Invalid\" << endl;\n    } else if (a == b && b == c) {\n        cout << \"Equilateral\" << endl;\n    } else if (a == b || b == c || a == c) {\n        cout << \"Isosceles\" << endl;\n    } else {\n        cout << \"Scalene\" << endl;\n    }\n    return 0;\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "5 5 5",
+          "expectedOutput": "Equilateral",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "5 5 8",
+          "expectedOutput": "Isosceles",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "3 4 5",
+          "expectedOutput": "Scalene",
+          "isHidden": false
+        },
+        {
+          "id": "tc4",
+          "input": "1 2 10",
+          "expectedOutput": "Invalid",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "cpp-p301",
+      "courseId": "cpp",
+      "levelNumber": 3,
+      "moduleId": "cpp-m3",
+      "title": "Armstrong Number Check",
+      "difficulty": "Medium",
+      "points": 20,
+      "description": "An Armstrong number of k digits is an integer such that the sum of its digits raised to the power k equals the number itself. Determine if N is an Armstrong number.",
+      "inputFormat": "A positive integer N.",
+      "outputFormat": "Print \"Armstrong\" or \"Not Armstrong\".",
+      "constraints": "1 <= N <= 10^8",
+      "exampleInput": "153",
+      "exampleOutput": "Armstrong",
+      "starterCode": {
+        "cpp": "#include <iostream>\n#include <cmath>\n#include <string>\nusing namespace std;\n\nint main() {\n    long long n;\n    cin >> n;\n    string s = to_string(n);\n    int k = s.length();\n    long long sum = 0;\n    for (char c : s) {\n        sum += pow(c - '0', k);\n    }\n    if (sum == n) cout << \"Armstrong\" << endl;\n    else cout << \"Not Armstrong\" << endl;\n    return 0;\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "153",
+          "expectedOutput": "Armstrong",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "120",
+          "expectedOutput": "Not Armstrong",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "370",
+          "expectedOutput": "Armstrong",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "9474",
+          "expectedOutput": "Armstrong",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "cpp-p401",
+      "courseId": "cpp",
+      "levelNumber": 4,
+      "moduleId": "cpp-m4",
+      "title": "Sort and Count Inversions using STL",
+      "difficulty": "Medium",
+      "points": 20,
+      "description": "Given N integers, sort them in ascending order and print them on one line separated by spaces.",
+      "inputFormat": "Line 1: N. Line 2: N space-separated integers.",
+      "outputFormat": "Sorted integers separated by space.",
+      "constraints": "1 <= N <= 10^5",
+      "exampleInput": "6\n7 2 9 1 5 3",
+      "exampleOutput": "1 2 3 5 7 9",
+      "starterCode": {
+        "cpp": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    int n;\n    if (!(cin >> n)) return 0;\n    vector<long long> v(n);\n    for (int i = 0; i < n; i++) cin >> v[i];\n    sort(v.begin(), v.end());\n    for (int i = 0; i < n; i++) {\n        cout << v[i] << (i == n - 1 ? \"\" : \" \");\n    }\n    cout << endl;\n    return 0;\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "6\n7 2 9 1 5 3",
+          "expectedOutput": "1 2 3 5 7 9",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "3\n3 2 1",
+          "expectedOutput": "1 2 3",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "5\n10 10 10 10 10",
+          "expectedOutput": "10 10 10 10 10",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "cpp-p501",
+      "courseId": "cpp",
+      "levelNumber": 5,
+      "moduleId": "cpp-m5",
+      "title": "Two Sum Target Search",
+      "difficulty": "Hard",
+      "points": 30,
+      "description": "Given an array of N integers and a target sum T, determine whether there exist two distinct indices whose elements sum to T.",
+      "inputFormat": "Line 1: N and T. Line 2: N space-separated integers.",
+      "outputFormat": "Print \"YES\" if such a pair exists, otherwise \"NO\".",
+      "constraints": "2 <= N <= 10^5, -10^9 <= T, A[i] <= 10^9",
+      "exampleInput": "5 9\n2 7 11 15 3",
+      "exampleOutput": "YES",
+      "starterCode": {
+        "cpp": "#include <iostream>\n#include <vector>\n#include <unordered_set>\nusing namespace std;\n\nint main() {\n    int n;\n    long long t;\n    cin >> n >> t;\n    unordered_set<long long> seen;\n    bool found = false;\n    for (int i = 0; i < n; i++) {\n        long long x;\n        cin >> x;\n        if (seen.count(t - x)) {\n            found = true;\n        }\n        seen.insert(x);\n    }\n    cout << (found ? \"YES\" : \"NO\") << endl;\n    return 0;\n}"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "5 9\n2 7 11 15 3",
+          "expectedOutput": "YES",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "4 10\n1 2 3 4",
+          "expectedOutput": "NO",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "3 6\n3 3 1",
+          "expectedOutput": "YES",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "py-p101",
+      "courseId": "python",
+      "levelNumber": 1,
+      "moduleId": "py-m1",
+      "title": "Formatted Greeting & Length",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Given a person's name, print \"Hello, {name}!\" on line 1, and the length of the name on line 2.",
+      "inputFormat": "A string representing the name.",
+      "outputFormat": "Line 1: Hello, <name>!\nLine 2: Character length of the name.",
+      "constraints": "1 <= len(name) <= 100",
+      "exampleInput": "Venkatesh",
+      "exampleOutput": "Hello, Venkatesh!\n9",
+      "starterCode": {
+        "python": "name = input().strip()\nprint(f\"Hello, {name}!\")\nprint(len(name))\n"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "Venkatesh",
+          "expectedOutput": "Hello, Venkatesh!\n9",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "Alex",
+          "expectedOutput": "Hello, Alex!\n4",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "Coder",
+          "expectedOutput": "Hello, Coder!\n5",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "py-p201",
+      "courseId": "python",
+      "levelNumber": 2,
+      "moduleId": "py-m2",
+      "title": "Electricity Bill Calculator",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Calculate electricity charges based on units consumed:\n- First 100 units: $1.50 per unit\n- Next 100 units (101-200): $2.50 per unit\n- Above 200 units: $3.50 per unit\nPrint total bill with 2 decimal places.",
+      "inputFormat": "A non-negative integer representing units.",
+      "outputFormat": "Total bill formatted to 2 decimals.",
+      "constraints": "0 <= units <= 10000",
+      "exampleInput": "150",
+      "exampleOutput": "275.00",
+      "starterCode": {
+        "python": "units = int(input().strip())\nbill = 0.0\n\nif units <= 100:\n    bill = units * 1.50\nelif units <= 200:\n    bill = (100 * 1.50) + ((units - 100) * 2.50)\nelse:\n    bill = (100 * 1.50) + (100 * 2.50) + ((units - 200) * 3.50)\n\nprint(f\"{bill:.2f}\")\n"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "150",
+          "expectedOutput": "275.00",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "80",
+          "expectedOutput": "120.00",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "250",
+          "expectedOutput": "575.00",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "py-p301",
+      "courseId": "python",
+      "levelNumber": 3,
+      "moduleId": "py-m3",
+      "title": "Sum of Digits in Python",
+      "difficulty": "Medium",
+      "points": 20,
+      "description": "Given an integer N, find the sum of its digits.",
+      "inputFormat": "An integer N.",
+      "outputFormat": "Print the sum of digits.",
+      "constraints": "0 <= N <= 10^18",
+      "exampleInput": "9875",
+      "exampleOutput": "29",
+      "starterCode": {
+        "python": "n = input().strip()\ntotal = sum(int(ch) for ch in n if ch.isdigit())\nprint(total)\n"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "9875",
+          "expectedOutput": "29",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "1000",
+          "expectedOutput": "1",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "0",
+          "expectedOutput": "0",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "999999999",
+          "expectedOutput": "81",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "py-p401",
+      "courseId": "python",
+      "levelNumber": 4,
+      "moduleId": "py-m4",
+      "title": "Word Frequency Counter",
+      "difficulty": "Medium",
+      "points": 20,
+      "description": "Given a space-separated sentence, count the frequency of each unique lowercase word. Print words sorted alphabetically with their count formatted as \"word: count\".",
+      "inputFormat": "A sentence on a single line.",
+      "outputFormat": "Each unique word and count on its own line: \"<word>: <count>\".",
+      "constraints": "1 <= words <= 1000",
+      "exampleInput": "apple banana apple orange banana apple",
+      "exampleOutput": "apple: 3\nbanana: 2\norange: 1",
+      "starterCode": {
+        "python": "import sys\n\nline = sys.stdin.read().strip()\nif line:\n    words = line.lower().split()\n    counts = {}\n    for w in words:\n        counts[w] = counts.get(w, 0) + 1\n    for w in sorted(counts.keys()):\n        print(f\"{w}: {counts[w]}\")\n"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "apple banana apple orange banana apple",
+          "expectedOutput": "apple: 3\nbanana: 2\norange: 1",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "Code code CODE learn",
+          "expectedOutput": "code: 3\nlearn: 1",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "single",
+          "expectedOutput": "single: 1",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "id": "py-p501",
+      "courseId": "python",
+      "levelNumber": 5,
+      "moduleId": "py-m5",
+      "title": "Check Anagram Strings",
+      "difficulty": "Hard",
+      "points": 30,
+      "description": "Given two strings S1 and S2 on separate lines, determine whether they are anagrams of each other (contain the same characters with identical frequencies, case-sensitive).",
+      "inputFormat": "Line 1: S1\nLine 2: S2",
+      "outputFormat": "Print \"Anagram\" or \"Not Anagram\".",
+      "constraints": "1 <= len(S1), len(S2) <= 10^5",
+      "exampleInput": "silent\nlisten",
+      "exampleOutput": "Anagram",
+      "starterCode": {
+        "python": "import sys\n\nlines = sys.stdin.read().splitlines()\nif len(lines) >= 2:\n    s1 = lines[0].strip()\n    s2 = lines[1].strip()\n    if sorted(s1) == sorted(s2):\n        print(\"Anagram\")\n    else:\n        print(\"Not Anagram\")\n"
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "silent\nlisten",
+          "expectedOutput": "Anagram",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "hello\nworld",
+          "expectedOutput": "Not Anagram",
+          "isHidden": false
+        },
+        {
+          "id": "tc3",
+          "input": "triangle\nintegral",
+          "expectedOutput": "Anagram",
+          "isHidden": true
+        }
+      ]
+    },
+    {
+      "courseId": "java",
+      "levelNumber": 1,
+      "moduleId": "java-m1",
+      "title": "Print Prime Numbers in a Given Range",
+      "difficulty": "Easy",
+      "points": 10,
+      "description": "Write a program to print all prime numbers between two given numbers.\nA prime number is a number greater than 1 that has exactly two factors: 1 and itself.\nPrint the prime numbers in ascending order.",
+      "inputFormat": "Single line with test inputs.The input contains two integers L and R, representing the starting and ending values of the range.",
+      "outputFormat": "Output formPrint all prime numbers between L and R, separated by spaces.at description.",
+      "constraints": "1 <= N <= 10^5",
+      "exampleInput": "10 30",
+      "exampleOutput": "11 13 17 19 23 29",
+      "starterCode": {
+        "java": ""
+      },
+      "testCases": [
+        {
+          "id": "tc1",
+          "input": "10 30",
+          "expectedOutput": "11 13 17 19 23 29",
+          "isHidden": false
+        },
+        {
+          "id": "tc2",
+          "input": "1 10",
+          "expectedOutput": "2 3 5 7",
+          "isHidden": true
+        },
+        {
+          "id": "tc3",
+          "input": "20 40",
+          "expectedOutput": "23 29 31 37",
+          "isHidden": true
+        },
+        {
+          "id": "tc4",
+          "input": "2 10",
+          "expectedOutput": "2 3 5 7",
+          "isHidden": true
+        },
+        {
+          "id": "tc5",
+          "input": "50 60",
+          "expectedOutput": "53 59",
+          "isHidden": true
+        },
+        {
+          "id": "tc6",
+          "input": "1 2",
+          "expectedOutput": "2",
+          "isHidden": true
+        },
+        {
+          "id": "tc7",
+          "input": "90 100",
+          "expectedOutput": "97",
+          "isHidden": true
+        }
+      ],
+      "id": "java-p1790516710106"
+    }
+  ],
+  "materials": [
+    {
+      "courseId": "java",
+      "levelNumber": 6,
+      "moduleId": "java-m1791282397974",
+      "title": "BFS & DFS Graph Traversal Cheat Sheet",
+      "description": "Graph exploration algorithms, visited set patterns, and queue implementation.",
+      "authorName": "Venkatesh -TT",
+      "attachmentName": "BFS_Traversal.pdf",
+      "attachmentType": "pdf",
+      "id": "mat-1791282409880",
+      "postedAt": "2026-10-06T10:26:49.880Z"
+    },
+    {
+      "id": "mat-1",
+      "courseId": "java",
+      "levelNumber": 1,
+      "moduleId": "java-m1",
+      "title": "Java Input & Output Comprehensive Notes",
+      "description": "Complete reference guide covering Scanner vs BufferedReader, System.out.printf formatting tokens, and common edge cases with buffer flushing.",
+      "authorName": "Venkatesh -TT",
+      "postedAt": "2026-09-24T10:00:00.000Z",
+      "attachmentName": "Java_IO_and_Scanner_Guide.pdf",
+      "attachmentType": "pdf",
+      "attachmentUrl": "#",
+      "externalLink": "https://docs.oracle.com/en/java/"
+    },
+    {
+      "id": "mat-2",
+      "courseId": "java",
+      "levelNumber": 2,
+      "moduleId": "java-m2",
+      "title": "Conditional Branching & Switch Expressions Cheat Sheet",
+      "description": "Detailed analysis of short-circuit evaluation (&& and ||), nested if traps, and enhanced switch statements with yield in Java 17/21.",
+      "authorName": "Venkatesh -TT",
+      "postedAt": "2026-09-25T14:30:00.000Z",
+      "attachmentName": "Conditionals_Mastery.docx",
+      "attachmentType": "doc",
+      "attachmentUrl": "#"
+    },
+    {
+      "id": "mat-3",
+      "courseId": "java",
+      "levelNumber": 3,
+      "moduleId": "java-m3",
+      "title": "Number Theory & Loop Optimization for Interviews",
+      "description": "Algorithms for O(sqrt(N)) prime checking, fast modular exponentiation, Sieve of Eratosthenes, and reversing numbers safely.",
+      "authorName": "Venkatesh -TT",
+      "postedAt": "2026-09-26T08:15:00.000Z",
+      "attachmentName": "Prime_and_Number_Theory.pdf",
+      "attachmentType": "pdf",
+      "attachmentUrl": "#"
+    },
+    {
+      "id": "mat-4",
+      "courseId": "c",
+      "levelNumber": 1,
+      "moduleId": "c-m1",
+      "title": "C Memory Model & Formatted I/O",
+      "description": "Deep dive into stack frame initialization, printf format string security, scanf return values, and buffer overflows.",
+      "authorName": "Venkatesh -TT",
+      "postedAt": "2026-09-23T11:00:00.000Z",
+      "attachmentName": "C_Basics_and_Memory.pdf",
+      "attachmentType": "pdf"
+    },
+    {
+      "id": "mat-5",
+      "courseId": "python",
+      "levelNumber": 1,
+      "moduleId": "py-m1",
+      "title": "Pythonic Fundamentals & Type Casting",
+      "description": "Understanding Python's dynamic type system, memory references, garbage collection, and input processing idioms.",
+      "authorName": "Venkatesh -TT",
+      "postedAt": "2026-09-22T09:00:00.000Z",
+      "attachmentName": "Python_Quickstart.pdf",
+      "attachmentType": "pdf"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-1791282977780-q01n",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p101",
+      "problemTitle": "Sum of Two Numbers",
+      "courseId": "java",
+      "language": "java",
+      "code": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Solution for: Sum of Two Numbers\n        int a=sc.nextInt();\n        int b=sc.nextInt();\n        System.out.println(a+b);\n        \n    }\n}",
+      "status": "Accepted",
+      "testsPassed": 4,
+      "totalTests": 4,
+      "scoreAwarded": 0,
+      "executionTimeMs": 395,
+      "outputLog": "",
+      "submittedAt": "2026-10-06T10:36:17.780Z"
+    },
+    {
+      "id": "sub-1791282375173-szub",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p101",
+      "problemTitle": "Sum of Two Numbers",
+      "courseId": "java",
+      "language": "java",
+      "code": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        long a = sc.nextLong();\n        long b = sc.nextLong();\n        System.out.println(a + b);\n    }\n}",
+      "status": "Accepted",
+      "testsPassed": 4,
+      "totalTests": 4,
+      "scoreAwarded": 0,
+      "executionTimeMs": 322,
+      "outputLog": "",
+      "submittedAt": "2026-10-06T10:26:15.173Z"
+    },
+    {
+      "id": "sub-1790517610515-ezbf",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p101",
+      "problemTitle": "Sum of Two Numbers",
+      "courseId": "java",
+      "language": "java",
+      "code": "// Verified in OnlineGDB",
+      "status": "Accepted",
+      "testsPassed": 4,
+      "totalTests": 4,
+      "scoreAwarded": 0,
+      "executionTimeMs": 36,
+      "outputLog": "Verified via OnlineGDB integrated compiler.",
+      "submittedAt": "2026-09-27T14:00:10.515Z"
+    },
+    {
+      "id": "sub-1790516999069-dst9",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p1790516710106",
+      "problemTitle": "Print Prime Numbers in a Given Range",
+      "courseId": "java",
+      "language": "java",
+      "code": "import java.util.Scanner;\n\nclass Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        int start = sc.nextInt();\n        int end = sc.nextInt();\n\n        for (int n = start; n <= end; n++) {\n            int count = 0;\n\n            for (int i = 1; i <= n; i++) {\n                if (n % i == 0) {\n                    count++;\n                }\n            }\n\n            if (count == 2) {\n                System.out.print(n + \" \");\n            }\n        }\n    }\n}",
+      "status": "Accepted",
+      "testsPassed": 7,
+      "totalTests": 7,
+      "scoreAwarded": 0,
+      "executionTimeMs": 101,
+      "outputLog": "",
+      "submittedAt": "2026-09-27T13:49:59.069Z"
+    },
+    {
+      "id": "sub-1790516977386-tk4f",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p1790516710106",
+      "problemTitle": "Print Prime Numbers in a Given Range",
+      "courseId": "java",
+      "language": "java",
+      "code": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        \n    }\n}",
+      "status": "Wrong Answer",
+      "testsPassed": 0,
+      "totalTests": 7,
+      "scoreAwarded": 0,
+      "executionTimeMs": 69,
+      "outputLog": "",
+      "submittedAt": "2026-09-27T13:49:37.386Z"
+    },
+    {
+      "id": "sub-1790516953914-yleq",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p1790516710106",
+      "problemTitle": "Print Prime Numbers in a Given Range",
+      "courseId": "java",
+      "language": "java",
+      "code": "import java.util.Scanner;\n\nclass Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        int start = sc.nextInt();\n        int end = sc.nextInt();\n\n        for (int n = start; n <= end; n++) {\n            int count = 0;\n\n            for (int i = 1; i <= n; i++) {\n                if (n % i == 0) {\n                    count++;\n                }\n            }\n\n            if (count == 2) {\n                System.out.print(n + \" \");\n            }\n        }\n    }\n}",
+      "status": "Accepted",
+      "testsPassed": 7,
+      "totalTests": 7,
+      "scoreAwarded": 10,
+      "executionTimeMs": 93,
+      "outputLog": "",
+      "submittedAt": "2026-09-27T13:49:13.914Z"
+    },
+    {
+      "id": "sub-1790422466037-4lfe",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p101",
+      "problemTitle": "Sum of Two Numbers",
+      "courseId": "java",
+      "language": "java",
+      "code": "import java.util.Scanner;\n\npublic class Main {\n public static void main(String[] args) {\n Scanner sc = new Scanner(System.in);\n long a = sc.nextLong();\n long b = sc.nextLong();\n System.out.println(a + b);\n }\n}",
+      "status": "Accepted",
+      "testsPassed": 4,
+      "totalTests": 4,
+      "scoreAwarded": 0,
+      "executionTimeMs": 71,
+      "outputLog": "",
+      "submittedAt": "2026-09-26T11:34:26.037Z"
+    },
+    {
+      "id": "sub-1",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p101",
+      "problemTitle": "Sum of Two Numbers",
+      "courseId": "java",
+      "language": "java",
+      "code": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        long a = sc.nextLong();\n        long b = sc.nextLong();\n        System.out.println(a + b);\n    }\n}",
+      "status": "Accepted",
+      "testsPassed": 4,
+      "totalTests": 4,
+      "scoreAwarded": 10,
+      "executionTimeMs": 120,
+      "submittedAt": "2026-09-24T12:00:00Z"
+    },
+    {
+      "id": "sub-2",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p201",
+      "problemTitle": "Check Leap Year",
+      "courseId": "java",
+      "language": "java",
+      "code": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int year = sc.nextInt();\n        boolean isLeap = (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0);\n        System.out.println(isLeap ? \"Leap Year\" : \"Not a Leap Year\");\n    }\n}",
+      "status": "Accepted",
+      "testsPassed": 4,
+      "totalTests": 4,
+      "scoreAwarded": 10,
+      "executionTimeMs": 110,
+      "submittedAt": "2026-09-25T14:20:00Z"
+    },
+    {
+      "id": "sub-3",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p301",
+      "problemTitle": "Check Prime Number",
+      "courseId": "java",
+      "language": "java",
+      "code": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        long n = sc.nextLong();\n        if (n <= 1) { System.out.println(\"Not Prime\"); return; }\n        boolean isPrime = true;\n        for (long i = 2; i * i <= n; i++) {\n            if (n % i == 0) { isPrime = false; break; }\n        }\n        System.out.println(isPrime ? \"Prime\" : \"Not Prime\");\n    }\n}",
+      "status": "Accepted",
+      "testsPassed": 5,
+      "totalTests": 5,
+      "scoreAwarded": 20,
+      "executionTimeMs": 95,
+      "submittedAt": "2026-09-25T16:00:00Z"
+    },
+    {
+      "id": "sub-4",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "problemId": "java-p501",
+      "problemTitle": "Valid Parentheses",
+      "courseId": "java",
+      "language": "java",
+      "code": "// Solution attempt",
+      "status": "Accepted",
+      "testsPassed": 4,
+      "totalTests": 4,
+      "scoreAwarded": 30,
+      "executionTimeMs": 140,
+      "submittedAt": "2026-09-26T02:00:00Z"
+    }
+  ],
+  "activities": [
+    {
+      "type": "post",
+      "message": "Venkatesh -TT successfully reset their account password.",
+      "studentId": "u-trainer-1",
+      "studentName": "Venkatesh -TT",
+      "id": "act-1791363728774",
+      "timestamp": "2026-10-07T09:02:08.774Z"
+    },
+    {
+      "type": "joined",
+      "message": "VIKAS KUMAR enrolled in JAVA (CSE)",
+      "studentId": "u-1791357794823-p7xtu",
+      "studentName": "VIKAS KUMAR",
+      "id": "act-1791357794824",
+      "timestamp": "2026-10-07T07:23:14.824Z"
+    },
+    {
+      "type": "solved",
+      "message": "Karthik R. solved \"Sum of Two Numbers\" in JAVA (+0 EIS)",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "id": "act-1791282977780",
+      "timestamp": "2026-10-06T10:36:17.780Z"
+    },
+    {
+      "type": "post",
+      "message": "Trainer posted new material: \"BFS & DFS Graph Traversal Cheat Sheet\" (JAVA)",
+      "id": "act-1791282409880",
+      "timestamp": "2026-10-06T10:26:49.880Z"
+    },
+    {
+      "type": "solved",
+      "message": "Karthik R. solved \"Sum of Two Numbers\" in JAVA (+0 EIS)",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "id": "act-1791282375173",
+      "timestamp": "2026-10-06T10:26:15.173Z"
+    },
+    {
+      "type": "joined",
+      "message": "vikas kumar enrolled in JAVA (Batch-2026-A)",
+      "studentId": "u-1791278928630-0ddeu",
+      "studentName": "vikas kumar",
+      "id": "act-1791278928631",
+      "timestamp": "2026-10-06T09:28:48.631Z"
+    },
+    {
+      "type": "solved",
+      "message": "Karthik R. solved \"Sum of Two Numbers\" in JAVA (+0 EIS)",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "id": "act-1790517610515",
+      "timestamp": "2026-09-27T14:00:10.515Z"
+    },
+    {
+      "type": "solved",
+      "message": "Karthik R. solved \"Print Prime Numbers in a Given Range\" in JAVA (+0 EIS)",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "id": "act-1790516999069",
+      "timestamp": "2026-09-27T13:49:59.069Z"
+    },
+    {
+      "type": "attempted",
+      "message": "Karthik R. submitted \"Print Prime Numbers in a Given Range\" (Wrong Answer)",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "id": "act-1790516977386",
+      "timestamp": "2026-09-27T13:49:37.386Z"
+    },
+    {
+      "type": "solved",
+      "message": "Karthik R. solved \"Print Prime Numbers in a Given Range\" in JAVA (+10 EIS)",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "id": "act-1790516953914",
+      "timestamp": "2026-09-27T13:49:13.914Z"
+    },
+    {
+      "type": "solved",
+      "message": "Karthik R. solved \"Sum of Two Numbers\" in JAVA (+0 EIS)",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R.",
+      "id": "act-1790422466037",
+      "timestamp": "2026-09-26T11:34:26.037Z"
+    },
+    {
+      "id": "act-1",
+      "type": "solved",
+      "message": "Karthik R. solved \"Valid Parentheses\" in Java (+30 EIS)",
+      "timestamp": "2026-09-26T02:00:00Z",
+      "studentId": "u-student-1",
+      "studentName": "Karthik R."
+    },
+    {
+      "id": "act-2",
+      "type": "solved",
+      "message": "Priya Sharma solved \"Electricity Bill Calculator\" in Python (+10 EIS)",
+      "timestamp": "2026-09-25T18:40:00Z",
+      "studentId": "u-student-2",
+      "studentName": "Priya Sharma"
+    },
+    {
+      "id": "act-3",
+      "type": "post",
+      "message": "Venkatesh -TT posted new material: \"Number Theory & Loop Optimization\"",
+      "timestamp": "2026-09-26T08:15:00Z"
+    }
+  ],
+  "settings": {
+    "easyPoints": 10,
+    "mediumPoints": 20,
+    "hardPoints": 30,
+    "announcement": "Welcome to CodeAssess. Week 4 coding evaluations in C, C++, Java & Python are now open!",
+    "classroomLinks": {
+      "java": "https://classroom.google.com",
+      "c": "https://classroom.google.com",
+      "cpp": "https://classroom.google.com",
+      "python": "https://classroom.google.com",
+      "trainer": "https://classroom.google.com/u/0/h"
+    }
+  },
+  "passwordResets": [
+    {
+      "id": "pr-1791363720573-zmup",
+      "email": "venkateshtechnl@gmail.com",
+      "otp": "515892",
+      "token": "bb4a41692cf5b0f5338d3a0530f59f182782694a91ec654b",
+      "expiresAt": "2026-10-07T09:17:00.573Z",
+      "used": true,
+      "createdAt": "2026-10-07T09:02:00.573Z"
+    }
+  ],
+  "sentEmails": [
+    {
+      "id": "em-1791363720573",
+      "to": "venkateshtechnl@gmail.com",
+      "subject": "CodeAssess Security: Password Reset Verification Code (515892)",
+      "body": "Hello Venkatesh -TT,\n\nYou requested a password reset for your CodeAssess account (venkateshtechnl@gmail.com).\n\nYour 6-digit verification code is: 515892\n\nThis verification code will expire in 15 minutes. If you did not request this reset, you can safely ignore this email.\n\nBest regards,\nCodeAssess Security Team",
+      "otp": "515892",
+      "sentAt": "2026-10-07T09:02:00.573Z"
+    }
+  ]
+}

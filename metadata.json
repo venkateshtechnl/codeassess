@@ -1,0 +1,6 @@
+{
+  "name": "CodeAssess - Coding Learning & Practice Platform",
+  "description": "A comprehensive coding practice, learning management, and automated evaluation platform for Technical Trainers and students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
